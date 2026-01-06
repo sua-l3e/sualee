@@ -1,5 +1,6 @@
 import Image from "next/image";
 import type { Project } from "@/_datas/projects.data";
+import CustomBlackButton from "../CustomBlackButton";
 
 type Props = {
   project: Project;
@@ -26,13 +27,9 @@ export default function ProjectCard({ project }: Props) {
         <p className="mt-2 text-base leading-7 text-white/60 line-clamp-3">
           {project.description}
         </p>
-
-        <button
-          type="button"
-          className="mt-6 inline-flex items-center justify-center rounded-full border border-white px-8 py-2 text-base text-white"
-        >
-          View Project
-        </button>
+        <div className="mt-6">
+          <CustomBlackButton text = "View Project" />
+        </div>
       </div>
       
     </article>
