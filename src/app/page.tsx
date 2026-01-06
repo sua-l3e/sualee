@@ -16,6 +16,15 @@ export default function Home() {
         </div>
         <ServicesSection/>
         <ProjectsSection/>
+        <div className="flex flex-col items-center justify-center my-14 p-2 space-y-3 border border-neutral-800 rounded-lg bg-neutral-900 w-6/11 h-40">
+          <p className="text-lg font-thin text-white text-center"> Ready to start your custom web development project? <br/> For a free consultation. </p>
+          <button           
+          type="button"
+          className="rounded-full bg-white px-8 py-2 text-base text-black"
+          >
+            Contact Sua
+          </button>
+        </div>
       </main>
     </div>
   );
