@@ -1,6 +1,7 @@
 // _components/projects/ProjectsSection.tsx
 import { projects } from "@/_datas/projects.data";
 import ProjectList from "./ProjectList";
+import CustomWhiteButton from "../CustomWhiteButton";
 
 export default function ProjectsSection() {
   return (
@@ -12,12 +13,7 @@ export default function ProjectsSection() {
       </div>
 
       <div className="mt-8 flex justify-center">
-        <button
-          type="button"
-          className="rounded-full bg-white px-8 py-2 text-base text-black"
-        >
-          View More Project
-        </button>
+        <CustomWhiteButton text="View More Projects"/>
       </div>
     </section>
   );
