@@ -1,4 +1,5 @@
 import ServicesSection from "@/_components/servicesSection";
+import ProjectsSection from "@/_components/projects/ProjectsSection";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
           </p>
         </div>
         <ServicesSection/>
+        <ProjectsSection/>
       </main>
     </div>
   );
