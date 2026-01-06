@@ -1,3 +1,5 @@
+import ServicesSection from "@/_components/servicesSection";
+
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-background">
@@ -11,6 +13,7 @@ export default function Home() {
             functional interfaces.
           </p>
         </div>
+        <ServicesSection/>
       </main>
     </div>
   );
